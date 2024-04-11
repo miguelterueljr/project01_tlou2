@@ -14,15 +14,80 @@
       <nav class="header__nav-container">
         <ul class="header__nav">
           <li class="header__nav-item">
-            <a href="" class="header__nav-item-link">Sobre o Jogo</a>
+            <a href="#about_id" class="header__nav-item-link">Sobre o Jogo</a>
           </li>
           <li class="header__nav-item">
-            <a href=""class="header__nav-item-link">Contato</a>
+            <a href="#contact_id"class="header__nav-item-link">Contato</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
+
+  <main>
+    <section class="about" id="about_id">
+      <img src="./images/tlouf_wallpaper.jpg" alt="Foto onde estão Ellie e Joel mais ao fundo, o mesmo segura um rebolver Ellie esta com uma espingarda, ambos estão com agua até o joelhos." class="about__image"/>
+      <div class="about__container-text">
+        <h2 class="about__title">Sobre o Jogo</h2>
+        <p class="about__text">
+          "The Last of Us" é um aclamado jogo de ação e aventura desenvolvido pela Naughty Dog e lançado em 2013, exclusivamente para o console PlayStation. Ambientado em um mundo pós-apocalíptico devastado por uma pandemia causada por um fungo parasita, o jogo segue a jornada emocionante de Joel, um sobrevivente endurecido, e Ellie, uma jovem corajosa, enquanto eles atravessam os Estados Unidos em busca de segurança.
+        </p>
+        <p class="about__text">
+          O enredo envolvente e os personagens complexos cativaram os jogadores, enquanto a jogabilidade mistura elementos de ação, stealth e resolução de quebra-cabeças para criar uma experiência imersiva. Além disso, a narrativa rica e os visuais deslumbrantes ajudaram a definir "The Last of Us" como um marco na indústria de jogos eletrônicos, conquistando diversos prêmios e uma legião de fãs apaixonados.
+        </p>
+        <p class="about__text">
+          Prepare-se para uma jornada emocionante através de paisagens desoladas e encontros perigosos, enquanto Joel e Ellie lutam pela sobrevivência em um mundo onde a humanidade está à beira da extinção.
+        </p>
+      </div>
+    </section>
+    <section class="gameplay">
+      <div class="gameplay__container">
+        <img src="./images/tlouf-1.jpg" alt="Foto de Joel e Elli olhando para uma grande área contendo arvores, predios abandonados e girafas e ao fundo uma montanha" class="gameplay__image" />
+        <img src="./images/tlouf-2.jpg" alt="Joel abraçando sua filha com marcas de sangue em seu rosto e mãos" class="gameplay__image" />
+        <img src="./images/tlouf-3.jpg" alt="Foto de Joel a esquerda tess a sua direita e ellie ao fundo " class="gameplay__image" />
+        <img src="./images/tlouf-4.jpg" alt="Foto de Joel olhando pra ellie com cara de preocupado" class="gameplay__image" />
+        <img src="./images/tlouf-5.jpg" alt="Ellie tocando vioão sentada encostada em uma árvore." class="gameplay__image" />
+        <img src="./images/tlouf-6.jpg" alt="Elli com olhar de raiva e marcas de sangue em seu rosto" class="gameplay__image" />
+        <img src="./images/tlouf-7.jpg" alt="Joel olhando para Ellie com aparencia mais velha" class="gameplay__image" />
+        <img src="./images/tlouf-8.jpg" alt="Foto contendo Abby Ellie e Joel" class="gameplay__image" />
+        <img src="./images/tlouf-9.jpg" alt="Foto do inimigo Baiacu" class="gameplay__image" />
+      </div>
+      <iframe class="gameplay__video" width="560" height="315" src="https://www.youtube.com/embed/JeHRqAu2DC0?si=9VU5fYe2BmkKzOp3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="contact" id="contact_id">
+      <h3 class="contact__title">Formas de Contato</h3>
+      <div class="contact__container">
+
+        <div class="contact__form-container">
+          <h4 class="contact__form-title">Fale Conosco</h4>
+          <form class="contact__form">
+            <input class="contact__form-input" type="text" placeholder="Seu Nome" required />
+            <input class="contact__form-input" type="email" placeholder="Seu e-mail" required />
+            <input class="contact__form-input" type="tel" placeholder="Seu telefone (opcional)" />
+            <textarea class="contact__form-textarea" placeholder="Sua mensagem"></textarea>
+            <button class="contact__form-button" type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div class="contact__social-container">
+          <h4 class="contact__social-title">Nos acompanhe</h4>
+          <div class="contact__social-images-container">
+            <a href="https://www.instagram.com/" target="_blank"><img class="contact__social-image" src="./images/instagram.png" alt="Símbolo do Instagram" /></a>
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img class="contact__social-image" src="./images/facebook.png" alt="Símbolo facebook" /></a>
+            <a href="https://www.linkedin.com/in/miguel-teruel-15b50022a/" target="_blank"><img class="contact__social-image" src="./images/linkedin.png" alt="Símbolo Linkedin" /></a>
+            <a href="https://www.youtube.com/@naughtydog" target="_blank"><img class="contact__social-image" src="./images/youtube.png" alt="Símbolo YouTube" /></a>
+          </div>
+        </div>
+
+        <div class="contact__address-container">
+          <h4 class="contact__address-title">Nosso Endereço</h4>
+          <p class="contact__address-text">Rua Front-End nº 177 - Rio de Janeiro - RJ</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
   
 </body>
 </html>
