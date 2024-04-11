@@ -188,3 +188,14 @@ main {
   color: #fff;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+.footer {
+  height: 80px;
+}
+
+.footer__text {
+  font-family: 'tlouf_font';
+  font-weight: 300;
+  font-size: 3rem;
+  margin-left: 35px;
+}
