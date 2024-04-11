@@ -23,4 +23,4 @@ Esta landing page foi criada para fins de treinamento, como parte do projeto do 
 
 ## URL da Página
 
-Acesse a landing page aqui: [URL da Página]
+Acesse a landing page aqui: (https://site-thelastofus-vert.vercel.app/)
